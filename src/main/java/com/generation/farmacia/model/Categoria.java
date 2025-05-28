@@ -40,12 +40,12 @@ public class Categoria {
 	private String via;
 
 	
-	/*
+	
 	//Produto
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "categoria", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("categoria")
 	private List<Produto> produto;
-	*/
+	
 	
 	
 	//Getters e Setters
@@ -73,8 +73,6 @@ public class Categoria {
 		this.via = via;
 	}
 
-	
-	/*
 	public List<Produto> getProduto() {
 		return produto;
 	}
@@ -82,6 +80,6 @@ public class Categoria {
 	public void setProduto(List<Produto> produto) {
 		this.produto = produto;
 	}
-	*/	
+	
 	
 }
